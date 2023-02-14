@@ -1,0 +1,280 @@
+* {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #862C2C;
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    background: #593131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    height: 100%;
+    font-weight: 400;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    background: white;
+    border-radius: 100%;
+}
+
+.main1 {
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.mini1 {
+    background: #D1B48C;
+    width: 70%;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.mini1_header {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.mini1_header img {
+    height: 80%;
+    background: white;
+    border-radius: 100%;
+}
+
+.mini1_header h2 {
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.mini1_cont {
+    height: 80%;
+    width: 100%;
+}
+
+.mini1_cont div {
+    height: 90%;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+/* .dwn_btn {
+}
+
+.dwn_div {
+    width: 40%;
+    height: 20%;
+    background: white;
+} */
+
+.mini2 {
+    height: 700px;
+    width: 10%;
+    background: #D1B48C;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.main2 {
+    margin-top: 50px;
+    height: 1000px;
+    width: 90%;
+    margin-left: 5%;
+    background: #D1B48C;
+    border-radius: 20px;
+}
+
+.desc {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.minidesc {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.infodesc {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.back_circle {
+    background: #CECACA;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.desc_text {
+    color: #344054;
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.vidos {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_video {
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.white_back {
+    height: 90%;
+    width: 95%;
+    background: white;
+    border-radius: 20px;
+}
+
+.video_info {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video_desc {
+    width: 30%;
+    font-size: 35px;
+    margin-right: 350px;
+}
+
+.main3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3_1 {
+    width: 90%;
+    height: 60%;
+    background: #D1B48C;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.circul {
+    margin-left: 50px;
+}
+
+.main3_1 h2 {
+    font-size: 30px;
+    color: #344054;
+    margin-left: 50px;
+}
+
+.grey_back {
+    width: 15%;
+    height: 50%;
+    background: #CECACA;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #344054;
+}
+
+.grey_back img {
+    margin-right: 20px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background: #462727;
+    display: flex;
+    color: white;
+}
+
+.info_footer {
+    height: 100%;
+    width: 30%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
